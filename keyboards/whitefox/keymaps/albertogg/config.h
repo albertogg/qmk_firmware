@@ -1,4 +1,4 @@
 #pragma once
 
 #undef  DEBOUNCE
-#define DEBOUNCE 9
+#define DEBOUNCE 8
