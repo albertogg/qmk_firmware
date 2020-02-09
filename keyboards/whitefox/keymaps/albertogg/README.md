@@ -12,9 +12,9 @@
 ## Building and Flashing
 
 1. Build the firmware
-
-    $ make whitefox:albertogg
-
+```bash
+$ make whitefox:albertogg
+```
 1. Put your board in DFU mode with either the button on the bottom, or with a
    software key in your current firmware
 1. Use the [QMK Toolbox][qmk-toolbox] to flash the firmware
