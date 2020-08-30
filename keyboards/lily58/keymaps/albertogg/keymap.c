@@ -29,7 +29,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------|   [   |    |    ]  |------+------+------+------+------+------|
    * |LShift|   Z  |   X  |   C  |   V  |   B  |-------|    |-------|   N  |   M  |   ,  |   .  |   /  |RShift|
    * `-----------------------------------------/       /     \      \-----------------------------------------'
-   *                   |LCTRL | LAlt | LGUI | /Space  /       \Enter \  |BackSP| RGUI |RAISE |
+   *                   |LCTRL | LAlt | LGUI | /Space  /       \Enter \  |BackSP| RGUI |RAlt  |
    *                   |      |      |      |/       /         \      \ |      |      |      |
    *                   `----------------------------'           '------''--------------------'
    */
@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     LT(_ADJUST, KC_TAB), KC_Q,   KC_W,    KC_E,    KC_R,    KC_T,                     KC_Y,      KC_U,    KC_I,    KC_O,    KC_P,    KC_PIPE, \
     LCTL_T(KC_CAPS),     KC_A,   KC_S,    KC_D,    KC_F,    KC_G,                     KC_H,      KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, \
     KC_LSFT,             KC_Z,   KC_X,    KC_C,    KC_V,    KC_B,   KC_LBRC, KC_RBRC, KC_N,      KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, \
-                              KC_LCTL, KC_LALT, KC_LGUI, LT(_LOWER, KC_SPC), LT(_RAISE, KC_ENT), KC_BSPC, KC_RGUI, MO(_RAISE) \
+                              KC_LCTL, KC_LALT, KC_LGUI, LT(_LOWER, KC_SPC), LT(_RAISE, KC_ENT), KC_BSPC, KC_RGUI, KC_RALT \
   ),
   /* LOWER
    * ,-----------------------------------------.                    ,-----------------------------------------.
@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------|   [   |    |    ]  |------+------+------+------+------+------|
    * |      |      |      |      |      |      |-------|    |-------|      |   _  |   +  |   {  |   }  |   |  |
    * `-----------------------------------------/       /     \      \-----------------------------------------'
-   *                   |LOWER | LAlt | LGUI | /Space  /       \Enter \  |Delete| RGUI |RAISE |
+   *                   |LCTRL | LAlt | LGUI | /Space  /       \Enter \  |BackSP| RGUI |RAlt  |
    *                   |      |      |      |/       /         \      \ |      |      |      |
    *                   `----------------------------'           '------''--------------------'
    */
@@ -71,7 +71,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------|   [   |    |    ]  |------+------+------+------+------+------|
    * |  F7  |  F8  |  F9  | F10  | F11  | F12  |-------|    |-------|   +  |   -  |   =  |   [  |   ]  |   \  |
    * `-----------------------------------------/       /     \      \-----------------------------------------'
-   *                   |LOWER | LAlt | LGUI | /Space  /       \Enter \  |BackSP| RGUI |RAISE |
+   *                   |LCTRL | LAlt | LGUI | /Space  /       \Enter \  |BackSP| RGUI |RAlt  |
    *                   |      |      |      |/       /         \      \ |      |      |      |
    *                   `----------------------------'           '------''--------------------'
    */
@@ -92,7 +92,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------| Prev  |    | Next  |------+------+------+------+------+------|
    * |      |      |      |      |      |      |-------|    |-------|      |      | VolD | VolU | Mute |      |
    * `-----------------------------------------/       /     \      \-----------------------------------------'
-   *                   |LOWER | LAlt | LGUI | /Space  /       \Enter \  |BackSP| RGUI |RAISE |
+   *                   |LCTRL | LAlt | LGUI | /Space  /       \Enter \  |BackSP| RGUI |RAlt  |
    *                   |      |      |      |/       /         \      \ |      |      |      |
    *                   `----------------------------'           '------''--------------------'
    */
